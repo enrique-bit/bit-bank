@@ -1,0 +1,29 @@
+{
+  "name": "bit-bank",
+  "version": "1.0.0",
+  "description": "Simulador de un cajero electrónico con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeisson Francois Rosas Céspedes <jeisson.rosas@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert": "^2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefraroce/bit-bank.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "BIT",
+    "Bank",
+    "ATM",
+    "Demo"
+  ],
+  "bugs": {
+    "url": "https://github.com/jefraroce/bit-bank/issues"
+  },
+  "homepage": "https://github.com/jefraroce/bit-bank#readme"
+}

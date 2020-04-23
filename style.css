@@ -1,0 +1,119 @@
+:root {
+  --red: #FF7373;
+  --on-red: #FF5959;
+  --green: #00D96D;
+  --on-green: #00BB5E;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header {
+  background-color: var(--red);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header-title, .header .header-user_info {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-title .logo, .header .header-user_info .user-icon {
+  font-size: 2.5rem;
+}
+
+.header .header-user_info {
+  display: none;
+  align-items: center;
+}
+
+.card-form {
+  padding: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.card-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-form form label {
+  font-size: 1.5rem;
+}
+
+.card-form form input {
+  height: 35px;
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.button {
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: max-content;
+  margin: 0 auto;
+}
+
+.button.button__green {
+  background-color: var(--green);
+}
+
+.button.button__red {
+  background-color: var(--red);
+}
+
+.button.button__green:hover {
+  background-color: var(--on-green);
+  box-shadow: none;
+}
+
+.button.button__red:hover {
+  background-color: var(--on-red);
+  box-shadow: none;
+}
+
+/* ATM */
+
+.atm {
+  display: none;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.atm .atm-balance {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.atm .atm-balance .atm-balance__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.atm .atm-balance .atm-balance__balance {
+  font-size: 3rem;
+  color: #2693ff;
+}
+
+.atm .atm-buttons {
+  display: flex;
+  justify-content: space-around;
+}
